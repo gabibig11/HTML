@@ -80,29 +80,23 @@ p{
 
 .principal{
     
-    justify-content:flex-start;
-
-    /*display:inline-block;*/
-
- 
-width: 636px;
-height: 80%;
-left: 0px;
-top: 0px;
-margin-left:220px;
-margin-right:20px;
-
-
-
-}
-/*.titulo{
     position: absolute;
 width: 636px;
-height: 174px;
-left: 0px;
-top: 0px;
+height: 1151px;
+left: 530px;
+top: 756px;
+
 }
-#Chrome{
+.titulo{
+    position: absolute;
+    height: 262px;
+    width: 636px;
+    left: 530px;
+     top: 414px;
+     border-radius: 0px;
+
+}
+/*#Chrome{
     position: absolute;
 width: 636px;
 height: 44px;
@@ -164,11 +158,8 @@ top: 0px;
 
 }
 .derechos{
-    height: 174px;
-width: 1366px;
-left: 0px;
-top: 6530px;
-border-radius: 0px;
+    position: absolute;
+    
 background-color: white;
 color: #251F24;
 
