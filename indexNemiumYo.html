@@ -1,146 +1,177 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nemium A</title>
+    <link rel="stylesheet" href="./styleProyecto.css"/>
+    <link rel="stylesheet" href="./normalize.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   </head>
   <body>
     
-      <img src="./assets/images/patron-1.png" alt="Patron Geométrico"><img src="./assets/images/patron-1.png" alt="Patron Geométrico2"><img src="./assets/images/patron-1.png" alt="Patron Geométrico3"><img src="./assets/images/patron-1.png" alt="Patron Geométrico4"><img src="./assets/images/patron-1.png" alt="Patron Geométrico5"><img src="./assets/images/patron-1.png" alt="Patron Geométrico6">
-      <img src="./assets/images/patron-1.png" alt="Patron Geométrico7"><img src="./assets/images/patron-1.png" alt="Patron Geométrico8"><img src="./assets/images/patron-1.png" alt="Patron Geométrico9"><img src="./assets/images/patron-1.png" alt="Patron Geométrico10"><img src="./assets/images/patron-1.png" alt="Patron Geométrico11"><img src="./assets/images/patron-1.png" alt="Patron Geométrico12">
-      <img src="./assets/images/patron-1.png" alt="Patron Geométrico13"><img src="./assets/images/patron-1.png" alt="Patron Geométrico14"><img src="./assets/images/patron-1.png" alt="Patron Geométrico15"><img src="./assets/images/patron-1.png" alt="Patron Geométrico16"><img src="./assets/images/patron-1.png" alt="Patron Geométrico11"><img src="./assets/images/patron-1.png" alt="Patron Geométrico17">
-    
-  <header>
+      
+  <header class="header" ></header>
+    <aside class="listas">
     <nav>
+      <div class="nemiums">
       <h4>VARIANTES DEL PROYECTO</h4>
+      
      <ul>
-       <li>Nemium A</li>
-       <li>Nemium B</li>
-       <li>Nemium C</li>
-       <li>Nemium D</li>
-       <li>Nemium E</li>
+       <li class="componente">Nemium A</li><br>
+       <li class="componente">Nemium B</li><br>
+       <li class="componente">Nemium C</li><br>
+       <li class="componente">Nemium D</li><br>
+       <li class="componente">Nemium E</li><br>
      </ul>
-    </nav>
-    <h1> 
-      Curso esencial de HTML y CSS
-    </h1>
-    <p>Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de contenidos, en el nivel 2 aprenderás de componentes y en 3 sobre layouts.</p>
-  </nav>
-  </header>
-  <aside>
-    <div>
+   
+  </div>
+  <br>
+  <br>
+  <br>
+    <div >
       <h4>CONTENIDO</h4>
-      <details>
-        <summary>
+      <br>
+      
+      <details open>
+        <summary >
           Setup
         </summary>
+        <br>
         <ol>
-          <li>Chrome</li>
-          <li>Visual Studio Code</li>
-          <li>Figma</li>
-          <li>GitHub</li>
+          <li class="componente"><a href="#Chrome">Chrome</a></li><br>
+          
+          <li class="componente"><a href="#VS">Visual Studio Code</a></li><br>
+          <li class="componente"><a href="#Figma">Figma</a></li><br>
+          <li class="componente"><a href="#GitHub">GitHub</a></li><br>
         </ol>
       </details>
      
     </div>
-    <div>
-      <details>
+    <br>
+    <div >
+      <details >
         <summary>
           Conceptos esenciales del Desarrollo Web
         </summary>
+        <br>
         <ol>
-          <li>¿Qué es HTML?</li>
-          <li>Etiquetas</li>
-          <li>DOM</li>
-          <li>Semántica</li>
-          <li>Atributos</li>
-          <li>¿Qué es CSS?</li>
+          <li class="componente"><a href="#QHtml">¿Qué es HTML?</a></li><br>
+          <li class="componente"><a href="#Etiquetas">Etiquetas</a></li><br>
+          <li class="componente"><a href="#Dom">DOM</a></li><br>
+          <li class="componente"><a href="#Semantica">Semántica</a></li><br>
+          <li class="componente"><a href="#Atributos">Atributos</a></li><br>
+          <li class="componente"><a href="#Css">¿Qué es CSS?</a></li><br>
         </ol>
       </details>
     </div>
-    
+  </nav> 
   </aside>
+
+
+<main class="principal">
+  <div class="titulo">
+  <h1 > 
+    Curso esencial de HTML y CSS
+  </h1>
+  <p>Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de contenidos, en el nivel 2 aprenderás de componentes y en 3 sobre layouts.</p>
+  <hr>
+</div>
   <section>
-    <hr>
     
-    <h2>Setup</h2>
+    
+    
     <h5>Setup</h5>
     <ol>
-    <div>
+    <div id="Chrome" >
     <img src="./assets/images/chrome-black.png" alt="Logo Google Chrome"> 
-    <h3 id="Chrome"><u><li>Google Chorme</li></u></h3>
+    <h3 ><u><li>Google Chorme</li></u></h3>
     <p>Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y de amigable uso.</p>
   <br>
   </div>
-  <div>
+  <div  id="VS">
     <img src="./assets/images/vs-code-black.png" alt="Logo Visual Studio Code"> 
-    <h3 id="VS"><u><li>Visual Studio Code</li></u></h3>
+    <h3 ><u><li>Visual Studio Code</li></u></h3>
     <p>Visual Studio Code es el editor de texto más popular y potente del mercado actualmente, su fácil uso y la capacidad de extenderlo por medio de plugins lo hace el complemento perfecto para cualquier programador sin importar el lenguaje en el que se desemvuelva.</p>
   <br>
   </div>
-  <div>
-    <img src="./assets/images/figma-black.png" alt="Logo de Figma"> 
-    <h3 id="Figma"><u><li>Figma</li></u></h3>
+  <div id="Figma">
+    <img  src="./assets/images/figma-black.png" alt="Logo de Figma"> 
+    <h3 ><u><li>Figma</li></u></h3>
     <p>Visual Studio Code es el editor de texto más popular y potente del mercado actualmente, su fácil uso y la capacidad de extenderlo por medio de plugins lo hace el complemento perfecto para cualquier programador sin importar el lenguaje en el que se desemvuelva.</p>
 <br>
   </div>
-  <div>
+  <div id="GitHub">
     <img src="./assets/images/github-black.png" alt="Logo de GitHub"> 
-    <h3 id="GitHub"><u><li>GitHub</li></u></h3>
+    <h3 ><u><li>GitHub</li></u></h3>
     <p>Así como en Facebook te encuentran tus amigos, en GitHub te encuentran otras programadoras y programadores de todo el mundo, en vez de subir fotos de tus viajes aquí subes tu código y puedes elegir hacerlo “open source” o guardarlo de manera privada, Github será esencial para almacenar tu futuro portafolio.</p>
   <br> <br>
   </div>
 </ol>
+<blockquote class="frase">
+  <span
+    >“Este es el inicio de tu carrera como Desarrollador Web”</span
+  >
+  <br> <br>
+  <span> - Leonidas Esteban</span>
+</blockquote>
   </section>
   <section>
     <h5>Conceptos esenciales del Desarrollo Web</h5>
     <ol>
-    <div>
+    <div id="QHtml">
       
-      <h3 id="QHtml"><u><li>¿Qué es HTML?</li></u></h3>
+      <h3><u><li>¿Qué es HTML?</li></u></h3>
       <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado y la estructura del contenido.</p>
-       <article>
-        &lt;!DOCTYPE html&gt; <br> 
-        &lt;html lang="en"&gt; <br>
-        &lt;head&gt; <br>
-        &lt;meta charset="UTF-8"&gt; <br>
-        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; <br>
-        &lt;title>Document&gt;title&gt; <br>
-        &lt;head &gt; <br>
-        &lt;body &gt; <br>
+       <article class="codigo">
+        &lt;!DOCTYPE html&gt; <br> <br> 
+        &lt;html lang="en"&gt; <br> <br> 
+        &lt;head&gt; <br> <br> 
+        &lt;meta charset="UTF-8"&gt; <br> <br> 
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; <br> <br> 
+        &lt;title>Document&gt;title&gt; <br> <br> 
+        &lt;head &gt; <br><br>  
+        &lt;body &gt; <br><br> <br> 
         
-        &lt;body&gt; <br>
+        &lt;body&gt; <br><br> 
         &lt;html&gt; </article> <br>
       <br> 
     </div>
-    <div>
-      <h3 id="Etiquetas"><u><li>Etiquetas</li></u></h3></li>
+    <div id="Etiquetas">
+      <h3 ><u><li>Etiquetas</li></u></h3></li>
       <p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene características y usos diferentes aunque visualmente den un resultado similar.</p>
+     
       <p>Muchas etiquetas son fácil de diferencias como los headings o las imágenes y otras diferentes como header, footer, section o div, aquí es donde la semántica será la respuesta y si sabemos un poco de inglés también podremos darnos una pequeña idea de su uso pero en este curso vamos a usar las más importantes y que serán parte de tu día a día como Software Developer.</p>
 
     </div>
-    <div>
-      <h3 id="Dom"><u><li>DOM</li></u></h3>
+    <div id="Dom">
+      <h3 ><u><li>DOM</li></u></h3>
      <p> El Document Object Model es una estructura de árbol que representará todos nuestros proyectos web como si un árbol genealógico fuera: padres, hijos, hermanos con niveles infinitos. cuando entendemos esta anidación podemos identificar dependencias, herencias en css y que tan complejo es nuestro proyecto.</p>
      <img src="./assets/images/dom-black.jpg"  widht="900" height="470" alt="Diagrama de Semántica">
     </div>
-    <div>
-      <h3 id="Semantica"><u><li>Semantica</li></u></h3>
+    <div id="Semantica">  
+      <h3 ><u><li>Semantica</li></u></h3>
       <p>
         La semántica le brinda sentido a cada elemento existen en un sitio web, algunos elementos será meramente decorativos y no deben significar nada pero otros serán títulos y deberán estar en diferente jerarquías o alguna secciones serán más relevantes que otras, esto ayudará a los motores de búsqueda como Google o Duck Duck Go a diferenciar tu contenido, categorizar y será la herramientas más valiosa para estar en los primeros resultados de búsqueda SEO. También ayudará a la accesibilidad de tu sitio web, para que personas con habilidades diferentes puedan entender cada contenido.
       </p>
     </div>
-    <div>
-      <h3 id="Atributos"><u><li>Atributos</li></u></h3>
+    <div id="Atributos">
+      <h3 ><u><li>Atributos</li></u></h3>
       <p>
         Los atributos le dan características extra a las etiquetas para complementar información y son pre programadas por el navegador, algunos atributos funcionan en todas las etiquetas de la misma forma como ‘class’ pero otros atributos funcionan en solo alguna etiquetas como src
       </p>
 
     </div>
-    <div>
-      <h3 id="Css"><u><li>CSS</li></u></h3>
+    <div id="Css">
+      <h3 ><u><li>CSS</li></u></h3>
       <p>Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML</p>
       
     </div>
@@ -156,75 +187,83 @@
       El modelo de caja está compuesto por:
     </h4>
     <p>Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y de amigable uso.</p>
+    <p>
     <ol>
       <li>
          Tamaño del del contenido / ancho y alto
         
-      </li>
+      </li><br>
       <li>
         
           Padding / Relleno
 
-      </li>
+      </li><br>
       <li>
          Border / Bordes
-        </li>
+        </li><br>
       <li>
        
           Margin / Márgenes
-      </li>
+      </li><br>
     </ol>
+  </p>
   </div>
   <div>
     <h3 id="PropiedadesF">Propiedades físicas para el modelo de caja:</h3>
+  <p>
     <ul>
       <li>
         width / height
-      </li>
+      </li><br>
       <li>
         margin / margin-top | margin-right | margin-bottom | margin-left
-      </li>
+      </li><br>
       <li>
         border / border-top | border-right | border-bottom | border-left  
-      </li>
+      </li><br>
       <li>
         padding / padding-top | padding-right | padding-bottom | padding-left
-      </li>
+      </li><br>
     </ul>
+  </p>
   </div>
   <div>
     <h3 id="PropiedadesL">Propiedades lógicas para el modelo de caja:</h3>
+    <p>
     <ul>
       <li>
         inline-size / block-size
-      </li>
+      </li><br>
       <li>
         margin-block | margin-inline | margin-block-start | margin-block-end | margin-inline-start | margin-inline-end
-      </li>
+      </li><br>
       <li>
         border-block | border-inline | border-block-start | border-block-end | border-inline-start | border-inline-end
-      </li>
+      </li><br>
       <li>
         padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end
-      </li>
+      </li><br>
     </ul>
+    </p>
   </div>
   <div>
     <h3 id="ModeloC">Modelo de caja</h3>
    <p> Si tienes alguna pregunta escríbeme a <a href="https:www.me@leonidasesteban.com">me@leonidasesteban.com</a><br> </p>
   <br>
   </div>
-  </section>
-  <section>
+  <form>
     <h4>Suscríbete a nuestro newsletter</h4>
-    <input type="number" placeholder="Nombre">
-        <input type="email" placeholder="Correo electrónico">
+    <div class="forms">
+    <input name= "nombre" type="nombre" placeholder="Nombre" required>
+        <input name= "Correo" type="email" placeholder="Correo electrónico" required>
+      </div>
         <input type="submit" value="Suscribirme">
-        
+      </form>    
   </section>
-  <footer>
+  </main>
+  <footer class="derechos">
     <br>
-    Leonidas Esteban &copy
+    <p>copy Leonidas Esteban 2021 </p>
     <br>
     <img src="./assets/icons/instagram.svg" widht="18 " height="18"alt="Logo Instagram">
     <img src="./assets/icons/facebook.svg" widht="18 " height="18"alt="Logo Facebook">

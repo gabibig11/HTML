@@ -1,0 +1,190 @@
+* {
+    margin:0;
+    padding:0;
+    }
+.html{
+    background-color: #251F24;
+    font-family: 'Nunito', sans-serif;
+    
+    color: #FFFFFF;
+}
+.header{
+    
+    width:100%;
+    height:350px;
+    background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%); 
+
+}
+.listas{
+   
+    font-size: 14px;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 306px;
+    height: 240px;
+    left: 200px;
+    top: 414px;
+    position:absolute;
+
+
+}
+.listas ul{
+    
+    list-style: none !important;
+}
+.listas ol a{
+    color: #A5A3A5;
+    
+    text-decoration:none;
+}
+
+.nemiums{
+    
+    font-family: 'Roboto', sans-serif !important;
+    
+    /*list-style: none !important;*/
+}
+.nemiums ul{
+    list-style: none !important;
+
+}
+
+
+h1{
+    font-size:64px !important;
+
+    font-weight: 700;
+    font-weight: bold;
+}
+h5{
+    font-size:40px;
+}
+h3{
+    font-size:32px ;
+}
+h4{
+    font-size: 24px;
+}
+p{
+    color:
+    #A5A3A5 ;
+    font-size: 17px;
+} 
+
+
+.principal{
+    
+    justify-content:flex-start;
+
+    /*display:inline-block;*/
+
+ 
+width: 636px;
+height: 80%;
+left: 0px;
+top: 0px;
+margin-left:220px;
+margin-right:20px;
+
+
+
+}
+/*.titulo{
+    position: absolute;
+width: 636px;
+height: 174px;
+left: 0px;
+top: 0px;
+}
+#Chrome{
+    position: absolute;
+width: 636px;
+height: 44px;
+left: 0px;
+top: 96px;
+}
+#VS{
+    position: absolute;
+width: 636px;
+height: 96px;
+left: 0px;
+top: 156px;
+
+}
+#Figma{
+    position: absolute;
+width: 636px;
+height: 72px;
+left: 0px;
+top: 156px;
+
+}*/
+
+
+.componente{
+    color:
+    #A5A3A5 !important;
+}
+
+/*.titulo{
+    position:absolute;
+width: 636px;
+height: 174px;
+left: 0px;
+top: 0px;
+
+}*/
+
+.frase{
+    background: #3A3539;
+    height:128px;
+    font-size: 24px;
+}
+.codigo{
+    background: #3A3539;
+    padding: 40px;
+
+    height:368px;
+    font-size: 16px;
+    width: 511px;
+    /*height: 288px;*/
+    /*left: 40px;*/
+
+    top: 40px;
+}
+.forms{
+    background-color: #251F24;
+    color:white;
+
+}
+.derechos{
+    height: 174px;
+width: 1366px;
+left: 0px;
+top: 6530px;
+border-radius: 0px;
+background-color: white;
+color: #251F24;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+
+line-height: 44px;
+justify-content: center;
+    
+font-size: 32px;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+
+}
